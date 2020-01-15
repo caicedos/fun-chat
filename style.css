@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'nick-font';
+    src: url('./nickelodeon\ font\ 2.0\ por\ disney\ channel\ nick\ city.ttf')
+}
+
+body {
+    background-image: url('https://img.pixers.pics/pho(s3:700/PI/95/63/39/41/700_PI95633941_549a9cb02ff9850ed2bc6537cac5c721_5b7abb8c25eaf_.,700,700,jpg)/wall-murals-seamless-abstract-geometric-pattern-fashion-80-90s-it-can-be-used-in-printing-website-background-and-fabric-design.jpg.jpg');
+    font-family: nick-font;
+    letter-spacing: 3px;
+}
+
+h1 {
+    color: red;
+    font-size: 5em;
+}
+
+label {
+    font-size: 20px;
+}
+
+#welcome {
+    cursor: pointer;
+}
+
+.name-input,
+.comment-box {
+    font-size: 20px;
+    margin: auto;
+    width: 75%;
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+}
+
+.name-input{
+    width: 50%;
+}
+
+#submit-button {
+    color: greenyellow;
+    font-size: large;
+    box-shadow: 0px 1px 5px hotpink;
+    margin-bottom: 20px;
+}
+
+#people-comments {
+    font-size: x-large;
+}
+
+#comment {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    width: 75%;
+    overflow-wrap: normal;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+#name-comment {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
